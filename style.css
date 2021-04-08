@@ -1,0 +1,544 @@
+body{
+
+    background: rgb(244, 255, 243);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    }
+    
+    #Header{
+    
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+    border: 0px solid transparent;
+    background-color: rgba(32, 218, 103, 0.897);
+    border-radius: 0px 0px 30px 30px;
+    
+    }
+    
+    #TREBUHEADERLOGO{
+    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    top: 19px;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+    }
+    
+    #JMIDEVHEADERLOGO:hover{
+    
+    cursor: hand;
+    
+    }
+    
+    .HeaderLetras{
+    
+    position: absolute;
+    top: 21px;
+    margin: 0px;
+    font-size: 25px;
+    
+    }
+    
+    #Headerletra{
+    
+    left: 100px;
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    #HeaderTitle{
+    
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    }
+    
+    #HeaderMenu{
+    
+    position: absolute;
+    right: 80px;
+    top: 18px;
+    
+    }
+    
+    .HeaderButtons{
+    
+    width: 120px;
+    height: 34px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    color: rgb(46, 46, 46);
+    border-radius: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+    font-size: 12px;
+    opacity: 1;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .HeaderButtons:hover{
+    
+    font-size: 13px;
+    cursor: hand;
+    background-color: rgb(209, 209, 209);
+    
+    }
+    
+    
+    
+    ::-webkit-scrollbar{
+    
+    width: 11px;
+    
+    }
+    
+    ::-webkit-scrollbar-track{
+    
+    border: 2px transparent rgb(202, 202, 202);
+    background-color: rgb(202, 202, 202);
+    
+    
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    
+    background-color: rgb(148, 148, 148);
+    transition: 0.3s;
+    
+    }
+    
+    ::-webkit-scrollbar-thumb:hover{
+    
+    background-color: rgb(117, 117, 117);
+    
+    }
+    
+    a{
+    
+        color: rgb(255, 71, 71);
+    
+    }
+    
+    #footer{
+    
+    bottom: 0px;
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 60px;
+    height: auto;
+    margin-left: -6px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: rgb(44, 44, 44);
+    background-color: rgba(255, 255, 255, 0.548);
+    justify-content: center;
+    font-size: 13px;
+    }
+    
+    .hamburguermenuresponsive{
+        position: absolute;
+        right: 20px;
+        top: 14px;
+        width: 48px;
+        height: 48px;
+        background: rgba(116, 116, 116, 0.13);
+        border: 2px solid transparent;
+        border-radius: 15px;
+        display: none;
+        transition: 0.3s;
+        outline: none;
+    
+    }
+    
+    .hamburguermenuresponsive:hover{
+        background: rgba(0, 0, 0, 0.39);
+        cursor: hand;
+    }
+    
+    .hamburguermenuresponsive:focus{
+        background: rgba(0, 0, 0, 0.602);
+        cursor: hand;
+    }
+    
+    .hamburguermenuresponsiveicon{
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+    }
+    
+    .hambmenselector{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        width: 85%;
+        background-color: rgb(31, 230, 107);
+        box-shadow: 0 0 100px 0px rgba(0, 0, 0, 0.315);
+    }
+    
+    #hambmencontainer{
+        position: fixed;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        transition: 0.3s;
+    }
+    
+    .hambmenselectormenu{
+        position: absolute;
+        left: 80px;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    .hambmenselectorclose{
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        top: 35px;
+        left: 20px;
+        background-color: rgba(0, 0, 0, 0.123);
+        border: 2px solid transparent;
+        border-radius: 22px;
+        color: white;
+        outline: none;
+        transition: 0.3s;
+    }
+    
+    .hambmenselectorclose:hover{
+        cursor: hand;
+        background-color: rgba(0, 0, 0, 0.253);
+    }
+    
+    .hambmenselectorcloseicon{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .hambmenbutton{
+        width: 90%;
+        height: 50px;
+        margin-left: 5%;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid transparent;
+        border-radius: 10px;
+        margin-top: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: rgb(34, 34, 34);
+        text-align: left;
+        padding-left: 20px;
+        outline: none;
+        transition: 0.3s;
+    }
+    
+    .hambmenbutton:hover{
+        background-color: rgb(238, 238, 238);
+        cursor: hand;
+    }
+    
+    .hambmenoptions{
+        margin-top: 110px;
+    }
+    
+    .iniciobox{
+        position: relative;
+        width: 100%;
+        height: 320px;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    .iniciobox p{
+        font-size: 25px;
+    }
+
+    .videosampl{
+
+        margin-top: 150px;
+        outline: none;
+        width: 70%;
+        height: 720px;
+        box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.178);
+        border: none;
+    
+    }
+
+    .homesocialicon img{
+
+        width: 140px;
+        height: 100px;
+        margin-top: 50px;
+        transition: 0.3s;
+
+    }
+
+    .homesocialicon img:hover{
+
+        width: 210px;
+        height: 150px;
+        margin-top: 50px;
+
+    }
+
+    .decoracionimg{
+
+        pointer-events: none;
+        position: absolute;
+        width: 100vmax;
+        height: none;
+        z-index: -78;
+        transition: 0.3s;
+
+    }
+
+    #BIGTITLE{
+
+        font-size: 10vmin;
+
+    }
+
+    .customalertboxcontainerfix{
+
+        position: fixed;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        text-align: center;
+        pointer-events: none;
+
+    }
+
+    .customalertboxcontainer{
+
+        width: 50vmax;
+        height: 230px;
+        background: white;
+        display: inline-block;
+        margin-top: -600px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.082);
+        transition: 1s;
+        text-align: left;
+        pointer-events: all;
+
+    }
+
+    .advicetypecontainer{
+
+        display: table-cell;
+        width: 50vmax;
+        height: 40px;
+        vertical-align: middle;
+        padding-left: 10px;
+        background: rgb(82, 151, 255);
+        border-radius: 20px 20px 0px 0px;
+        transition: 1s;
+        color: white;
+
+    }
+
+    #problemicon{
+
+        width: 30px;
+        vertical-align: middle;
+
+    }
+
+    #problemtext{
+
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 19px;
+
+    }
+
+    #problemdesc{
+
+        color: rgb(71, 71, 71);
+        font-size: 22px;
+
+    }
+
+    .problemdescdiv{
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 90px;
+
+    }
+
+    .advicelogocontainer{
+
+        display: table-cell;
+        width: 50vmax;
+        height: 65px;
+        vertical-align: middle;
+        padding-left: 10px;
+        border-radius: 0px 0px 20px 20px;
+        transition: 1s;
+
+    }
+
+    #jmidevlogoincab{
+
+        width: 40px;
+        margin-left: 10px;
+        border-radius: 20px;
+        vertical-align: middle;
+
+    }
+
+    #jmidevtextincab{
+
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 19px;
+        color: rgb(71, 71, 71);
+
+    }
+
+    #footersocialicon{
+
+        width: 50px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        transition: 0.3s;
+        vertical-align: top;
+
+    }
+
+    #footersocialicon:hover{
+
+        width: 60px;
+
+    }
+
+    /*asasasasasasassasasas*/
+
+    @media only screen and (max-width: 768px) {
+    
+        #TREBUHEADERLOGO{
+    
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 19px;
+            top: 11px;
+            border-radius: 15px;
+            transition: 0.3s;
+    
+        }
+
+        .decoracionimg{
+
+            pointer-events: none;
+            position: absolute;
+            width: 100vmin;
+            height: none;
+    
+        }
+    
+        .HeaderLetras{
+    
+            display: none;
+    
+        }
+    
+        #HeaderMenu{
+            display: none;
+        }
+    
+        .main{
+    
+            margin-top: 110px;
+            margin-bottom: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: rgb(41, 41, 41);
+    
+        }
+    
+        #Header{
+            
+            background-color: rgba(32, 218, 103, 0.897);
+    
+        }
+    
+        .hamburguermenuresponsive{
+            display: inline;
+        }
+    
+        #footer{
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 30px;
+        }
+
+        .videosampl{
+
+            margin-top: 150px;
+            outline: none;
+            width: 70%;
+            height: 360px;
+        
+        }
+
+        .customalertboxcontainer{
+
+            width: 85vw;
+
+        }
+
+        .advicelogocontainer{
+
+            width: 85vw;
+    
+        }
+
+        .advicetypecontainer{
+
+            width: 85vw;
+    
+        }
+    
+    }
+
+    
