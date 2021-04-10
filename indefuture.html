@@ -52,11 +52,69 @@
 
 }
 
+.trayecto{
+
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 15%;
+    
+}
+
+.trayectotext{
+
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+    /*float: left;*/
+
+}
+
+.callejeroimg{
+
+    width: 70%;
+    margin-left: 40px;
+    height: max-content;
+    margin-top: 0px;
+    /*float: right;*/
+
+}
+
 @media only screen and (max-width: 768px) {
 
     .titlemaintreb{
 
         color: rgb(41, 214, 55); font-size: 10vmin; font-family: 'Faster One', cursive; font-weight: normal;
+
+    }
+
+    .trayecto{
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        display: inline;
+        margin-left: 0px;
+
+    }
+
+    .trayectotext{
+
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        /*float: left;*/
+
+    }
+
+    .callejeroimg{
+
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+        margin-top: 20px;
+        /*float: right;*/
 
     }
 
@@ -86,23 +144,28 @@
             <h1 style="font-size: 4vmin; margin-top: -30px;">Salida en el <u>CDP José Cabrera</u></h1><br>
             <!--   MAPA   -->
             <h1 class="titlemaintreb">TRAYECTO:</h1><br>
-            <div style="text-align: left; width: 100%; padding-left: 40px;">
-                <h1 style="font-size: 3vmin;"> 1) CDP José Cabrera</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 2) Parque de La Toya</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 3) Algarve</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 4) Iglesia</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 5) Ayuntamiento</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 6) Plaza del Ayuntamiento</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 7) Castillo del Altozano (De los Guzmanes)</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 8) Plaza de Abastos</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 9) La Trilla</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">10) La Cooperativa del Vino</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">11) Calesita</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">12) Campo de fútbol</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">13) Ermita</h1>
-                <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">14) Cementerio</h1>
+            <div class="trayecto">
+                <div class="trayectotext">
+                    <h1 style="font-size: 3vmin;"> 1) CDP José Cabrera</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 2) Parque de La Toya</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 3) Algarve</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 4) Iglesia</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 5) Ayuntamiento</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 6) Plaza del Ayuntamiento</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 7) Castillo del Altozano (De los Guzmanes)</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 8) Plaza de Abastos</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;"> 9) La Trilla</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">10) La Cooperativa del Vino</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">11) Calesita</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">12) Campo de fútbol</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">13) Ermita</h1>
+                    <h1 style="font-size: 3vmin; margin-top: 0.5vmin;">14) Cementerio</h1>
+                </div>
+                <img class="callejeroimg" src="callejero.jpg">
+                <br>
             </div>
-            <h1 style="font-size: 5vmin;">Por:</h1>
+            <br>
+            <h1 style="font-size: 5vmin; float: inline-end;">Por:</h1>
             <a href="https://cdpjosecabrera.es"><img class="josecabreraimg" src="https://cdpjosecabrera.es/wp-content/uploads/2020/08/logo.png"></a>
             <!--<iframe class="videosampl" src="https://www.youtube.com/embed/+lastest?list=PLA_N9OMAgolGGjIrUUjtu_qS6WOXQn-Dm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </main>
