@@ -1,0 +1,132 @@
+<html lang="es">
+
+<!--HHHH-->
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#f2fbff" />
+        <meta charset="UTF-8">
+        <meta name="language" content="Spanish">
+        <meta http-equiv="content-language" content="es">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>TREBUTOUR</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet"> 
+        <link rel="icon" 
+    type="image/png" 
+    href="logoico.ico">
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+.main{
+    
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+.josecabreraimg{
+
+    width: 40vmin;
+    transition: 0.1s;
+
+}
+
+.josecabreraimg:hover{
+
+    width: 60vmin;
+
+}
+
+/*asasasasasasassasassa*/
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <main class="main">
+            <h1 style="color: rgb(41, 214, 55); font-size: 7vmin; font-family: 'Faster One', cursive; font-weight: normal;">CONTACTO:</h1><br>
+            <h1 style="font-size: 3vmin;">Instagram: <a style="color: rgb(255, 60, 60);" href="https://www.instagram.com/trebutour_/">@trebutour_</a></h1><br>
+            <h1 style="font-size: 3vmin;">Mail: <a href="mailto:trebutour2@gmail.com">trebutour2@gmail.com</a></h1><br>
+            <br><br><br><br><br><h1 style="font-size: 5vmin;">Por:</h1>
+            <a href="https://cdpjosecabrera.es"><img class="josecabreraimg" src="https://cdpjosecabrera.es/wp-content/uploads/2020/08/logo.png"></a>
+            <!--<iframe class="videosampl" src="https://www.youtube.com/embed/+lastest?list=PLA_N9OMAgolGGjIrUUjtu_qS6WOXQn-Dm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </main>
+        <!-- <p id="footer">
+            <h4 align="center">El desarrollo de videojuegos, la preparación de mis videos, y mi vida personal, son muy complicadas
+            <br>de aguantar entre ellas, así que por favor, suscribete a mi canal de YouTube, a mi Itch.io, pinterest,
+            <br>y unete a mi server de discord!!</h4>
+            <div align="center">
+                <a href="https://jmidev.itch.io">Itch.io</a> - 
+                <a href="https://www.youtube.com/channel/UCyfD82E_VPQrOrOhp8fLFGA">YouTube</a> - 
+                <a href="https://discord.gg/aVTD6ck">Discord</a> - 
+                <a href="https://pinterest.es/JMIDEV">Pinterest</a> -
+                <a href="https://www.twitch.tv/gyhu_games">Twitch</a>
+            </div>
+        </p> -->
+        <br>
+        <!--<div id="footer">
+            <h4 align="center">El desarrollo de videojuegos, la preparación de mis videos, y mi vida personal, son muy complicadas de aguantar entre ellas, así que por favor, suscribete a mi canal de YouTube, a mi Itch.io, pinterest,y unete a mi server de discord!!</h4>
+            <div align="center">
+                <a href="https://jmidev.itch.io"><img id="footersocialicon" src="LogosFooter/Itchio/itchio-textless-white.svg"></a>
+                <a href="https://www.youtube.com/channel/UC_gY9KDZ-YJPtBR91UeGxUQ"><img id="footersocialicon" src="LogosFooter/Youtube/youtube_social_circle_red.png"></a>
+                <a href="https://discord.gg/GqnAcXDegt"><img id="footersocialicon" src="LogosFooter/Discord/Discord-Logo-White.svg"></a>
+                <a href="https://pinterest.es/JMIDEV"><img id="footersocialicon" src="LogosFooter/Pinterest/pintlogo.svg"></a>
+                <a href="https://www.twitch.tv/jmi_dev"><img id="footersocialicon" src="LogosFooter/Twitch/TwitchGlitchPurple.svg"></a>
+            </div>-->
+        </div>
+        <div id="Header">
+            <div id="HeaderTitle">
+                <img id="TREBUHEADERLOGO" src="trebutourlogo.svg">
+                <h1 id="Headerletra" class="HeaderLetras">TREBUTOUR</h1>
+            </div>
+            <button onclick="activatehm();" class="hamburguermenuresponsive"><img class="hamburguermenuresponsiveicon" src="menu-white-18dp.svg"></button>
+            <div id="HeaderMenu">
+                <button onclick="goInicio();" id="Inicio" class="HeaderButtons">Inicio</button>
+                <button onclick="goContacto();" id="Mis Proyectos" class="HeaderButtons">Contacto</button>
+            </div>
+        </div>
+        <div id="hambmencontainer">
+            <div class="hambmenselector">
+                <button onclick="hidehm();" class="hambmenselectorclose"><img class="hambmenselectorcloseicon" src="clear-white-18dp.svg"></button>
+                <h1 class="hambmenselectormenu">Menú</h1>
+                <div class="hambmenoptions">
+                    <button onclick="goInicio();" class="hambmenbutton">Inicio</button>
+                    <br>
+                    <button onclick="goContacto();" class="hambmenbutton">Contacto</button>
+                </div>
+            </div>
+        </div>
+        <div class="customalertboxcontainerfix">
+            <div class="customalertboxcontainer">
+                <div class="advicetypecontainer"><img id="problemicon" src="othericons/notification_important-white-18dp.svg"><span id="problemtext">La web dice:</span></div>
+                <div class="problemdescdiv"><h1 id="problemdesc">El email que has introducido no es válido, y/o te falta algún dato por introducir</h1></div>
+                <div class="advicelogocontainer"><img id="jmidevlogoincab" src="JMIDEVLOGO.png"><span id="jmidevtextincab">JMIDEV</span></div>
+            </div>
+        </div>
+    </body>
+    <script src="topbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="hamburguermenu.js"></script>
+
+    <!-- FIREBASE SCRIPTS :)-->
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+
+    <!-- END OF FIREBASE SCRIPTS :( -->
+
+    <script src="customalertbox.js"></script>
+
+</html>
