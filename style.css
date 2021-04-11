@@ -367,10 +367,10 @@ body{
         height: 40px;
         vertical-align: middle;
         padding-left: 10px;
-        background: rgb(82, 151, 255);
+        background: rgb(45, 255, 140);
         border-radius: 20px 20px 0px 0px;
         transition: 1s;
-        color: white;
+        color: rgb(255, 255, 255);
 
     }
 
