@@ -18,4 +18,10 @@ function goContacto(){
 
 }
 
+function goApas(){
+
+    window.location.href = "apariencias_en_tv_y_radio";
+
+}
+
 //asassasasasasasa
