@@ -451,6 +451,12 @@ body{
 
     }
 
+    .indexrutafoto{
+
+        width: 90vmin;
+        
+    }
+
     /*asasasasasasassasasas*/
 
     @media only screen and (max-width: 768px) {
@@ -537,6 +543,12 @@ body{
 
             width: 85vw;
     
+        }
+
+        .indexrutafoto{
+
+            width: 80vmin;
+            
         }
     
     }
