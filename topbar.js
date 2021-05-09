@@ -20,7 +20,7 @@ function goContacto(){
 
 function goApas(){
 
-    window.location.href = "apariencias_en_tv_y_radio";
+    window.location.href = "entrevistas_en_medios";
 
 }
 
