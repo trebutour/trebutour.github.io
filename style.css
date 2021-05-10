@@ -457,6 +457,31 @@ body{
         
     }
 
+    .bgimgtr{
+
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -213123123123123123;
+        pointer-events: none;
+
+    }
+
+    .bgimgtrcont{
+
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: url("trebubg.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity: 0.2;
+        pointer-events: none;
+
+    }
+
     /*asasasasasasassasasas*/
 
     @media only screen and (max-width: 768px) {
