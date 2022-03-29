@@ -28,7 +28,7 @@ var minsleft = 60 - pageopendate.getMinutes();
 var secsleft = 60 - pageopendate.getSeconds();
 
 var oneDay = 24 * 60 * 60 * 1000;
-var daysleft = Math.floor(Math.abs((pageopendate - releasedate) / oneDay))+1;
+var daysleft = Math.floor(Math.abs((pageopendate - releasedate) / oneDay));
 
 function return_zeroed(value, digitnmb){
 
