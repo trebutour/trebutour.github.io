@@ -23,7 +23,7 @@ else{
 var pageopendate = new Date();
 var releasedate = new Date(2022, 03, 05);
 
-var hoursleft = 24 - pageopendate.getHours();
+var hoursleft = 23 - pageopendate.getHours();
 var minsleft = 60 - pageopendate.getMinutes();
 var secsleft = 60 - pageopendate.getSeconds();
 
