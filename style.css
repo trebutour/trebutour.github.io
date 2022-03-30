@@ -508,11 +508,49 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-100%);
         font-weight: bold;
         font-size: 10vmin;
         width: 100%;
         text-align: center;
+
+    }
+
+    #progressbar{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(0%);
+        width: 87%;
+        height: 10vmin;
+        background: rgb(20, 20, 20);
+        border: 2px solid white;
+
+    }
+
+    #progresscontent{
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        background: rgb(0, 110, 255);
+
+    }
+
+    #PROGRESSTEXT{
+
+        color: rgba(255, 255, 255, 0.493);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-weight: bold;
+        font-size: 2.5vmin;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
 
     }
 

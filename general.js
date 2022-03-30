@@ -25,7 +25,7 @@ var releasedate = new Date(2022, 03, 05);
 
 var hoursleft = 23 - pageopendate.getHours();
 var minsleft = 59 - pageopendate.getMinutes();
-var secsleft = 60 - pageopendate.getSeconds();
+var secsleft = 59 - pageopendate.getSeconds();
 
 var oneDay = 24 * 60 * 60 * 1000;
 var daysleft = Math.floor(Math.abs((pageopendate - releasedate) / oneDay));
@@ -41,6 +41,9 @@ function updatetext(){
     if(pageblock){
     
         document.getElementById("TIMETEXT").innerHTML = return_zeroed(daysleft, 2) + "d " + return_zeroed(hoursleft, 2) + ":" + return_zeroed(minsleft, 2) + ":" + return_zeroed(secsleft, 2);
+        var currentdate = new Date();
+        var percuntilopen = ((Math.abs((currentdate - releasedate) / oneDay))/6)*100;
+        $("#progresscontent").css("width", 100-percuntilopen + "%");
 
     }
 
