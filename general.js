@@ -44,7 +44,7 @@ function updatetext(){
         var currentdate = new Date();
         var percuntilopen = ((Math.abs((currentdate - releasedate) / oneDay))/6)*100;
         $("#progresscontent").css("width", 100-percuntilopen + "%");
-        document.getElementById("PROGRESSTEXT").innerHTML = "Proximamente, la nueva web de Trebutour... La espera va por el " + Math.round(100-percuntilopen) + "%";
+        document.getElementById("PROGRESSTEXT").innerHTML = "Proximamente, la nueva web de Trebutour... La espera va por el " + Math.round(100-percuntilopen) + "%.";
 
     }
 
