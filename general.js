@@ -40,11 +40,11 @@ function updatetext(){
 
     if(pageblock){
     
-        document.getElementById("TIMETEXT").innerHTML = "Quedan: " + return_zeroed(daysleft, 2) + " días, " + return_zeroed(hoursleft, 2) + ":" + return_zeroed(minsleft, 2) + ":" + return_zeroed(secsleft, 2);
+        document.getElementById("TIMETEXT").innerHTML = "Quedan: " + return_zeroed(daysleft, 2) + " días, " + return_zeroed(hoursleft, 2) + ":" + return_zeroed(minsleft, 2) + ":" + return_zeroed(secsleft, 2) + " para la <span style='font-size: 7.5vmin;'>NUEVA WEB</span>.";
         var currentdate = new Date();
         var percuntilopen = ((Math.abs((currentdate - releasedate) / oneDay))/6)*100;
         $("#progresscontent").css("width", 100-percuntilopen + "%");
-        document.getElementById("PROGRESSTEXT").innerHTML = "Proximamente, la nueva web de Trebutour... La espera va por el " + Math.round(100-percuntilopen) + "%.";
+        document.getElementById("PROGRESSTEXT").innerHTML = "Proximamente, la nueva web de Trebutour... La espera va por el " + Math.floor(100-percuntilopen) + "%.";
 
     }
 
