@@ -7,7 +7,7 @@
     
     body{
 
-    background: rgb(244, 255, 243);
+    background: rgb(37, 39, 36);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,9 +29,10 @@
     top: 0px;
     right: 0px;
     height: 70px;
+    border-radius: 0px 0px 20px 20px;
     border: 0px solid transparent;
-    background-color: rgba(32, 218, 103, 0.897);
-    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 2px 0px rgb(70, 219, 32);
+    background-color: rgba(24, 24, 24, 0.808);
     
     }
     
@@ -89,9 +90,9 @@
     
     width: 120px;
     height: 34px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid transparent;
-    color: rgb(46, 46, 46);
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
     border-radius: 34px;
     margin-left: 10px;
     margin-right: 10px;
@@ -105,9 +106,9 @@
     
     .HeaderButtons:hover{
     
-    font-size: 13px;
-    cursor: hand;
-    background-color: rgb(209, 209, 209);
+        font-size: 13px;
+        cursor: hand;
+        border: 2px solid rgb(73, 231, 25);
     
     }
     
@@ -171,8 +172,11 @@
         top: 14px;
         width: 48px;
         height: 48px;
-        background: rgba(116, 116, 116, 0.13);
-        border: 2px solid transparent;
+        background: url(menu-white-18dp.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+        border: 2px solid rgb(255, 255, 255);
         border-radius: 15px;
         display: none;
         transition: 0.3s;
@@ -181,12 +185,11 @@
     }
     
     .hamburguermenuresponsive:hover{
-        background: rgba(0, 0, 0, 0.39);
         cursor: hand;
+        background-size: 100%;
     }
     
     .hamburguermenuresponsive:focus{
-        background: rgba(0, 0, 0, 0.602);
         cursor: hand;
     }
     
@@ -202,7 +205,7 @@
         top: 0px;
         bottom: 0px;
         width: 85%;
-        background-color: rgb(31, 230, 107);
+        background-color: rgba(24, 24, 24, 0.925);
         box-shadow: 0 0 100px 0px rgba(0, 0, 0, 0.315);
     }
     
@@ -231,8 +234,11 @@
         height: 43px;
         top: 35px;
         left: 20px;
-        background-color: rgba(0, 0, 0, 0.123);
-        border: 2px solid transparent;
+        background: url(clear-white-18dp.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: 3px solid white;
         border-radius: 22px;
         color: white;
         outline: none;
@@ -241,7 +247,6 @@
     
     .hambmenselectorclose:hover{
         cursor: hand;
-        background-color: rgba(0, 0, 0, 0.253);
     }
     
     .hambmenselectorcloseicon{
@@ -593,7 +598,7 @@
 
     /*asasasasasasassasasas*/
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 973px) {
     
         #TREBUHEADERLOGO{
     
@@ -602,7 +607,6 @@
             position: absolute;
             left: 19px;
             top: 11px;
-            border-radius: 15px;
             transition: 0.3s;
     
         }
@@ -633,12 +637,6 @@
             margin-left: 20px;
             margin-right: 20px;
             color: rgb(41, 41, 41);
-    
-        }
-    
-        #Header{
-            
-            background-color: rgba(32, 218, 103, 0.897);
     
         }
     
