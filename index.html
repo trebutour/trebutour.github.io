@@ -15,7 +15,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
@@ -27,11 +28,11 @@
 
 .main{
     
-    margin-top: 150px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 50px;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: normal;
     
@@ -39,6 +40,7 @@
 
 .josecabreraimg{
 
+    margin-top: 10vmin;
     width: 40vmin;
     transition: 0.3s;
 
@@ -83,6 +85,29 @@
     margin-top: 0px;
     border-radius: 5vmin;
     /*float: right;*/
+
+}
+
+@keyframes spinindexlogo {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+#trebuindexlogo{
+
+    margin-top: 5vmin;
+    width: 40vmin;
+    animation-name: spinindexlogo;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotateY(0deg);
+
+}
+
+.indexlogoperspectiveizer{
+
+    perspective: 50vmin;
 
 }
 
@@ -165,6 +190,27 @@
             </div>--> 
             <main class="main">
                 
+                <div class="pagesection" style="      background: url('trebubgblack.jpg');      background-size: cover; background-repeat: no-repeat;">
+
+                    <div class="indexlogoperspectiveizer"><img id="trebuindexlogo" src="trebutourlogo.svg"></div>
+                    <h1 class="titlestyle">¡HEMOS VUELTO!</h1>
+
+                </div>
+                <div class="pagesection" style="      background: url('fondossecciones/IMG_8036.JPG');     background-position: 50% 50%; background-size: cover; background-repeat: no-repeat;">
+
+                    <h2 class="subtitlestyle">Bienvenidos a una nueva edición de <resaltado>Trebutour</resaltado>, esta vez en forma de <resaltado>GINCANA</resaltado>:</h2>
+                    <p class="bodystyle">Ahora en <resaltado>grupos de 2 a 5 personas</resaltado>, deberás de recorrer el pueblo en base a acertijos, que te llevarán a lugares icónicos del pueblo, donde deberás superar retos, para así pasar a tu siguiente destino.</p>
+                    <p class="bodystyle">Los acertijos están basados en localizaciones conocidas de Trebujena, y en cada uno de los puntos, deberás superar actividades de gincana, para que te pongan un sello, y así, continuar con tu recorrido.</p>
+
+                </div>
+                <div class="pagesection" style="      background: url('fondossecciones/IMG_8051.JPG');     background-position: 50% 20%; background-size: cover; background-repeat: no-repeat;">
+
+                    <h2 class="subtitlestyle2">Día <resaltado>20 de Abril</resaltado> de 2022</h2>
+                    <h2 class="subtitlestyle3">¡APÚNTATE!</h2>
+                
+                </div>
+                <a href="https://cdpjosecabrera.es"><img class="josecabreraimg" src="logojoscabupsc.png"></a>
+
             </main>
             <!-- <p id="footer">
                 <h4 align="center">El desarrollo de videojuegos, la preparación de mis videos, y mi vida personal, son muy complicadas
