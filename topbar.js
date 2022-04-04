@@ -24,4 +24,10 @@ function goApas(){
 
 }
 
+function goedition(){
+
+    window.location.href = "2021/index";
+
+}
+
 //asassasasasasasa
