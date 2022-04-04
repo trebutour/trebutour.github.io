@@ -2,7 +2,7 @@
 
 function goInicio(){
 
-    window.location.href = "/";
+    window.location.href = "./";
 
 }
 
