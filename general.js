@@ -3,7 +3,7 @@ var testvalue = false;
 var pageblock;
 
 var pageopendate = new Date();
-var releasedate = new Date(2022, 03, 05);
+var releasedate = new Date(2022, 03, 06);
 
 var hoursleft = 23 - pageopendate.getHours();
 var minsleft = 59 - pageopendate.getMinutes();
