@@ -1,4 +1,4 @@
-var testmode = false;
+/*var testmode = false;
 var testvalue = false;
 var pageblock;
 
@@ -122,4 +122,4 @@ setInterval(function () {
 
     }
 
-}, 1000);
+}, 1000);*/
